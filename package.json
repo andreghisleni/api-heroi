@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "json-server -p 3333 api.json"
+    "start": "json-server -p $PORT api.json"
   },
   "devDependencies": {
     "json-server": "^0.16.3"
